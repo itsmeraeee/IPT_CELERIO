@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDAS Calculator & Font Resizer</title>
+    <link rel="stylesheet" href="/docs/css/calcu&font.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <label class="logo">RaeFolio</label>
+            <nav>
+                <ul class="nav">
+                    <li><a href="/docs/index.html">Home</a></li>
+                    <li><a href="/docs/html/aboutme.html">About Me</a></li>
+                    <li><a href="/docs/html/contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>MDAS Calculator</h1>
+    <input type="text" id="expression" placeholder="Enter Number">
+    <div class="button-container1">
+    <button onclick="calculateMDAS()">Calculate</button>
+   </div>
+    <p id="calculateResult"></p>
+ 
+    <h2>Font Resizer</h2>
+    <p id="result">Adjust the font size using the button below</p>
+    <div class="button-container">
+    <button onclick="increaseFontSize()">Increase Font Size</button>
+    <button onclick="decreaseFontSize()">Decrease Font Size</button>
+    </div>
+    <script src="/docs/js/script1.js"></script>
+</body>
+</html>
